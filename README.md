@@ -4,7 +4,7 @@ Loading ... <b>Compilation error</b>. Oh! I didn't declare that variable x. *cor
 *Compile* Now.. Loading ... <b>Runtime error</b>. Wtf! ... Oh! The array size is 1000 and I entered 100. *corrected* </br>
 *Compile* Loading ... <b>Wrong Answer</b>. In sample test case itself?!? Ohhh !! I forgot to update flag value. *corrected* </br>
 *Compile* Loading ... <b>Sample test cases passed</b>. *Cross check with extra cases generated on your own, gives AC.* </br>
-*Taking a deep breath and clicking SUBMIT* <b>Time Limit Exceeded</b>. Damn! 
+*Taking a deep breath and clicking SUBMIT* <b>Time Limit Exceeded</b>. Damn!
 
 Few hours later
 
