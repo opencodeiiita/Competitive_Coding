@@ -31,7 +31,7 @@ Whoever wishes to participate in this project must follow these guidelines:
 Create a PR as per the format given below:
 <ul>
   <li>On your local machine, go to the project folder.</li>
-  <li>Go to weeks folder and find this week's folder (for example "week_2").</li>
+  <li>Go inside the "weeks" folder and find this week's folder (for example "week_2").</li>
   <li>Read and understand the problem statement and the code given in the particular week folder.</li>
   <li>Find the bug.</li>
   <li>Edit, commit and push the changes.</li>
