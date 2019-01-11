@@ -1,14 +1,14 @@
 # Open-De-Bug
 ## ABOUT
-Loading ... Compilation error. Oh! I didn't declare that variable x. *corrected*
-*Compile* Now.. Loading ... Runtime error. Wtf! ... Oh! The array size is 1000 and I entered 100. *corrected* 
-*Compile* Loading ... Wrong Answer. In sample test case itself?!? Ohhh !! I forgot to update flag value. *corrected*
-*Compile* Loading ... Sample test cases passed. *Cross check with extra cases generated on your own, gives AC.* 
-*Taking a deep breath and clicking SUBMIT* Time Limit Exceeded. Damn! 
+Loading ... <b>Compilation error</b>. Oh! I didn't declare that variable x. *corrected* </br>
+*Compile* Now.. Loading ... <b>Runtime error</b>. Wtf! ... Oh! The array size is 1000 and I entered 100. *corrected* </br>
+*Compile* Loading ... <b>Wrong Answer</b>. In sample test case itself?!? Ohhh !! I forgot to update flag value. *corrected* </br>
+*Compile* Loading ... <b>Sample test cases passed</b>. *Cross check with extra cases generated on your own, gives AC.* </br>
+*Taking a deep breath and clicking SUBMIT* <b>Time Limit Exceeded</b>. Damn! 
 
 Few hours later
 
-*Taking a deep breath and clicking SUBMIT* Wrong Answer.
+*Taking a deep breath and clicking SUBMIT* <b>Wrong Answer</b>.
 
 "Debugging is like being the detective in a crime movie where you are also the murdurer" - Filipe Fortes
 
