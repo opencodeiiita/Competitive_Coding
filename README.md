@@ -12,7 +12,7 @@ Few hours later
 
 "Debugging is like being the detective in a crime movie where you are also the murdurer" - Filipe Fortes
 
-Pretty much true, isnt it?! This opencode, its not going to be like that. You won't be asked to murder and then, solve the crime. Instead we are helping this opencode. We will do the murder for you and give an oppurtunity for you to become SH.
+Pretty much true, isnt it?! This opencode, its not going to be like that. You won't be asked to murder and then, solve the crime. Instead we are helping this opencode. We will do the murder for you and give an oppurtunity for you to become Sherlock Holmes.
 </br>And you are rewarded points for that!!
 
 
