@@ -17,19 +17,24 @@ Pretty much true, isnt it?! This opencode, its not going to be like that. You wo
 
 
 ## NOTE
-It is totally upon the mentors to close the issue, you can't make any pull request after the issue is closed. Once your PR has some mistake and is closed you cant make any further PR's. All PR's will be reviewed and merged at the end of the day. Only first correct PR for each erronous line will be considered.
+It is totally upon the mentors to close the issue, you can't make any pull request after the issue is closed. Once your PR has some mistake and is closed you cant make any further PR's. All PR's will be reviewed and merged at the end of the day. Only first correct PR for each erronous bug/issue will be considered.
 
 ## Guidelines
 Whoever wishes to participate in this project must follow these guidelines:
-
-Points split for each week(code) will be mentioned in the problem-statement file in the corresponding week folder.
-Mention the week number(question number) along with the Pull Request and also explain in case it is a logic error.
-Submission are encouraged only till 6 days and after that the issue will be automatically closed and the bug-free code will be uploaded.
+<ul>
+<li>Each issue should be resolved by either modifying a line of code or appending a line of code. Resolving an issue by modifying/adding multiple lines will not be entertained.</li>
+<li>Mention the week number(question number) along with the Pull Request and also explain the fix incase it is a logic error.</li>
+<li>Submission are encouraged only till 6 days and after that the issue will be automatically closed and the bug-free code will be uploaded.</li>
+</ul>
 
 ## How to contribute
-Create your code with the format given above.
-On your local machine, go to the project folder.
-Go to Solutions folder and a make a new folder (if it's not already there) and name it as your GitHub username.
-Paste the code file in your folder.
-Add, commit and push the changes.
-Create the PR mentioning the issue number.
+Create a PR as per the format given below:
+<ul>
+  <li>On your local machine, go to the project folder.</li>
+  <li>Go to weeks folder and find this week's folder (for example "week_2").</li>
+  <li>Read and understand the problem statement and the code given in the particular week folder.</li>
+  <li>Find the bug.</li>
+  <li>Edit, commit and push the changes.</li>
+  <li>Create the PR mentioning the issue number.</li>
+</ul>
+Happy Debugging ! :v:
