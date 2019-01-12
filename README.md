@@ -14,6 +14,7 @@ Few hours later
 
 Pretty much true, isnt it?! This opencode, its not going to be like that. You won't be asked to murder and then, solve the crime. Instead we are helping this opencode. We will do the murder for you and give an oppurtunity for you to become Sherlock Holmes.
 </br>And you are rewarded points for that!!
+A new issue for a unique bug will open everyday at 10 pm ! Stay tuned.
 
 
 ## NOTE
@@ -22,19 +23,24 @@ It is totally upon the mentors to close the issue, you can't make any pull reque
 ## Guidelines
 Whoever wishes to participate in this project must follow these guidelines:
 <ul>
+
+<li>Do not make PR which is not related to any issues. You can create an issue and solve it once we approve them.</li>
+<li>Be polite: Be polite to other community members.</li>
+<li>Communicate: Whether you are working on a new feature or facing a doubt please feel free to ask us on our slack channel. We will be happy to help you out.</li>
 <li>Each issue should be resolved by either modifying a line of code or appending a line of code. Resolving an issue by modifying/adding multiple lines will not be entertained.</li>
 <li>Mention the line number along with the Pull Request and also explain the fix incase it is a logic error.</li>
-<li>Submission are encouraged only till 6 days for each week and after that the issue will be automatically closed and the bug-free code will be uploaded.</li>
+<li>Submission are encouraged only till 6 days for each task and after that the issue will be automatically closed and the bug-free code will be uploaded.</li>
+<li>Pull Request older than 2 days with no response from the contributor shall be marked closed.</li>
 </ul>
 
 ## How to contribute
 Create a PR as per the format given below:
 <ul>
   <li>On your local machine, go to the project folder.</li>
-  <li>Go inside the "weeks" folder and find this week's folder (for example "week_2").</li>
-  <li>Read and understand the problem statement and the code given in the particular week folder.</li>
+  <li>Go inside the "tasks" folder and go to the task folder in which you want to solve the issues. (for example "task_2").</li>
+  <li>Read and understand the problem statement and the code given in the particular task folder.</li>
   <li>Find the bug.</li>
   <li>Edit, commit and push the changes.</li>
-  <li>Create the PR mentioning the issue number.</li>
+  <li>Create the PR according to the format mentioned in the PULL_REQUEST_TEMPLATE.md.</li>
 </ul>
 Happy Debugging ! :v:
