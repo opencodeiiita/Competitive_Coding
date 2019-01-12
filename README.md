@@ -24,7 +24,7 @@ Whoever wishes to participate in this project must follow these guidelines:
 <li>Be polite: Be polite to other community members.</li>
 <li>Communicate: Whether you are working on a new correction or facing a doubt please feel free to ask us on our slack channel(specifically #competitive-coding). We will be happy to help you out.</li>
 <li>Each issue should be resolved by either modifying a line of code or appending a line of code. Resolving an issue by modifying/adding multiple lines will not be entertained.</li>
-<li>Mention the line number along with the Pull Request and also explain the fix incase it is a logic error.Follow PULL_REQUEST_TEMPLATE.md format.</li>
+<li>Mention the line number along with the Pull Request and further give suitable explanation. </li>
 <li>Submission are encouraged only till 6 days for each task and after that the issue will be automatically closed and the bug-free code will be uploaded.</li>
 <li>Pull Request older than 2 days with no response from the contributor shall be marked closed.</li>
 </ul>
