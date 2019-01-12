@@ -1,10 +1,10 @@
 
 ## PROBLEM STATEMENT
-Today's morning was exceptionally hectic. Rakul Preet decided to go outside and noticed a weird power bestowed upon her by the wizard. Further, since Rakul Preet like prime numbers which dosen't go well with the wizard, there are two stones on that mountain at certain heights.
+Rakul Preet is in a hill station for a work. Since it was getting colder day by day, she decided to cancel her work and go downhill. As she started her journey, she noticed a weird power bestowed upon her by the wizard. The power is as follows:
 </br> </br>
-Initially, she is at height ℎ and has weight 𝑤. Each second the following sequence of events happens: her weight increases by 𝑖, where 𝑖 — is the current height at which she is. If she encounters a stone (if it's present at the current height), then she has to move one meter down. If she reaches height zero, it stops.
+Each second the following sequence of events happens: her weight increases by 𝑖, where 𝑖 — is the current height at which she is. If she reaches height zero, she stops.
 </br></br>
-There are exactly two stones on the mountain. First stone has weight 𝑢1 and is located at height 𝑑1, the second one — 𝑢2 and 𝑑2 respectively. When the she encounters either of two stones, it loses weight equal to the weight of that stone. If after this she has negative weight, then her weight becomes zero, but then she continues moving as before.
+Further, since Rakul Preet like prime numbers, which dosen't go well with the wizard, there are two stones as obstacles on that mountain at certain heights. There are exactly two stones on the mountain. First stone has weight 𝑢1 and is located at height 𝑑1, the second one — 𝑢2 and 𝑑2 respectively. When she encounters either of two stones, she loses weight equal to the weight of that stone. If after this she has negative weight, then her weight becomes zero, but then she continues moving as before.
 </br></br>
 Find her weight when she stops moving, that is, she reaches height 0.
 </br>
