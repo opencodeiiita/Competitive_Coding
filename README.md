@@ -1,5 +1,5 @@
 # Open-De-Bug
-## ABOUT
+## About
 Loading ... <b>Compilation error</b>. Oh! I didn't declare that variable x. *corrected* </br>
 *Compile* Now.. Loading ... <b>Runtime error</b>. Wtf! ... Oh! The array size is 1000 and I entered 100. *corrected* </br>
 *Compile* Loading ... <b>Wrong Answer</b>. In sample test case itself?!? Ohhh !! I forgot to update flag value. *corrected* </br>
@@ -15,10 +15,6 @@ Few hours later
 Pretty much true, isnt it?! This opencode, its not going to be like that. You won't be asked to murder and then, solve the crime. Instead we are helping this opencode. We will do the murder for you and give an oppurtunity for you to become Sherlock Holmes.
 </br>And you are rewarded points for that!!</br>
 A new issue for a unique bug will open everyday at 10 pm ! Stay tuned.
-
-
-## NOTE
-It is totally upon the mentors to close the issue, you can't make any pull request after the issue is closed. Once your PR has some mistake and is closed you cant make any further PR's. All PR's will be reviewed and merged at the end of the day. Only first correct PR for each erronous bug/issue will be considered.
 
 ## Guidelines
 Whoever wishes to participate in this project must follow these guidelines:
@@ -43,4 +39,10 @@ Create a PR as per the format given below:
   <li>Edit, commit and push the changes.</li>
   <li>Create the PR according to the format mentioned in the PULL_REQUEST_TEMPLATE.md.</li>
 </ul>
+
+
+
+## Note
+It is totally upon the mentors to close the issue, you can't make any pull request after the issue is closed. Once your PR has some mistake and is closed you cant make any further PR's. All PR's will be reviewed and merged at the end of the day. Only first correct PR for each erronous bug/issue will be considered.
+
 Happy Debugging ! :v:
