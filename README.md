@@ -13,7 +13,7 @@ Few hours later
 "Debugging is like being the detective in a crime movie where you are also the murdurer" - Filipe Fortes
 
 Pretty much true, isnt it?! This opencode, its not going to be like that. You won't be asked to murder and then, solve the crime. Instead we are helping this opencode. We will do the murder for you and give an oppurtunity for you to become Sherlock Holmes.
-</br>And you are rewarded points for that!!
+</br>And you are rewarded points for that!!</br>
 A new issue for a unique bug will open everyday at 10 pm ! Stay tuned.
 
 
@@ -26,9 +26,9 @@ Whoever wishes to participate in this project must follow these guidelines:
 
 <li>Do not make PR which is not related to any issues. You can create an issue and solve it once we approve them.</li>
 <li>Be polite: Be polite to other community members.</li>
-<li>Communicate: Whether you are working on a new feature or facing a doubt please feel free to ask us on our slack channel. We will be happy to help you out.</li>
+<li>Communicate: Whether you are working on a new correction or facing a doubt please feel free to ask us on our slack channel(specifically #competitive-coding). We will be happy to help you out.</li>
 <li>Each issue should be resolved by either modifying a line of code or appending a line of code. Resolving an issue by modifying/adding multiple lines will not be entertained.</li>
-<li>Mention the line number along with the Pull Request and also explain the fix incase it is a logic error.</li>
+<li>Mention the line number along with the Pull Request and also explain the fix incase it is a logic error.Follow PULL_REQUEST_TEMPLATE.md format.</li>
 <li>Submission are encouraged only till 6 days for each task and after that the issue will be automatically closed and the bug-free code will be uploaded.</li>
 <li>Pull Request older than 2 days with no response from the contributor shall be marked closed.</li>
 </ul>
