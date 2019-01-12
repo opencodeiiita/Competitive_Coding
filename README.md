@@ -43,6 +43,6 @@ Create a PR as per the format given below:
 
 
 ## Note
-It is totally upon the mentors to close the issue, you can't make any pull request after the issue is closed. Once your PR has some mistake and is closed you cant make any further PR's. All PR's will be reviewed and merged at the end of the day. Only first correct PR for each erronous bug/issue will be considered.
+It is totally upon the mentors to close the issue, you can't make any pull request after the issue is closed. Once your PR has some mistake and is closed you cant make any further PRs for that particular issue. All PR's will be reviewed and merged at the end of the day. Only first correct PR for each erronous bug/issue will be considered.
 
 Happy Debugging ! :v:
