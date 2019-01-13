@@ -25,7 +25,9 @@ Whoever wishes to participate in this project must follow these guidelines:
 <li>Communicate: Whether you are working on a new correction or facing a doubt please feel free to ask us on our slack channel(specifically #competitive-coding). We will be happy to help you out.</li>
 <li>Each issue should be resolved by either modifying a line of code or appending a line of code. Resolving an issue by modifying/adding multiple lines will not be entertained.</li>
 <li>Mention the line number along with the Pull Request and further give suitable explanation. </li>
-<li>Submission are encouraged only till 6 days for each task and after that the issue will be automatically closed and the bug-free code will be uploaded.</li>
+<li> Each task is 6 days long. Each task will have 6 issues. Every new issue shall be uploaded everyday at 10 pm. <b>The issues are indedpendent of each other.</b></li>
+<li>Submission are encouraged only till 6 days for each task and after that the issue will be automatically closed and the bug-free code will be uploaded. All files related to task 1 shall be uploaded under week 1 folder and so on. </li>
+<li>On the 7th day, at 10 pm, the new task and its first issue will be uploaded. And this cycle shall continue over the month. Thus, for a month i.e., 30 days, there are totally 5 tasks under "Open-De-Bug". </li>
 <li>Pull Request older than 2 days with no response from the contributor shall be marked closed.</li>
 </ul>
 
