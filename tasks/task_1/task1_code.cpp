@@ -39,7 +39,11 @@ int main()
     #endif
 
     ios_base::sync_with_stdio(false);
-    ll i,w,h,u1,d1,d2,dm,dmn,pre[100001];
+
+    
+
+    ll i,w,h,u1,u2,d1,d2,dm,dmn,pre[100001]={0};
+
     for(i=1;i<100001;i++)
     {
         pre[i] += (pre[i - 1] + i);
