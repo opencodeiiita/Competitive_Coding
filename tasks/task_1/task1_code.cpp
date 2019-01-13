@@ -22,7 +22,7 @@ void sieve(int n)
     {
         if(arr[p] == p)
         {
-            for(i = p;i< = n;i += p)
+            for(i = p;i <= n;i += p)
             {
                 arr[i] = p;
             }
