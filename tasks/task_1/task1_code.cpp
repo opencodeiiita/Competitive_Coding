@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
-
-typedef long long int ll
+using namespace std;
+typedef long long int ll;//semicolon
 int arr[1000005];
 ll pow_mod(ll a, ll b, ll M)
 {   ll ans = 1LL;
@@ -22,7 +22,7 @@ void sieve(int n)
     {
         if(arr[p] == p)
         {
-            for(i = p;i< = n;i += p)
+            for(i = p;i<= n;i += p)//space between < and =
             {
                 arr[i] = p;
             }
@@ -39,7 +39,7 @@ int main()
     #endif
 
     ios_base::sync_with_stdio(false);
-    int i,w,h,u1,d1,d2,dm,dmn,pre[100001];
+    int i,w,h,u1,u2,d1,d2,dm,dmn,pre[100001];//u2 not declared
     for(i=1;i<100001;i++)
     {
         pre[i] += (pre[i - 1] + i);
