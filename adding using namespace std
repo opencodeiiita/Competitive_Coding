@@ -1,0 +1,9 @@
+Issue Number #2
+Details
+
+Line number :2
+Explanation :Add the text 
+			 
+			 using namespace std;	
+			  
+          	this will tell the compiler to recognize the functions like "cin" and "cout".
