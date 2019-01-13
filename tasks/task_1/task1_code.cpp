@@ -58,7 +58,7 @@ int main()
     (dmn == d1) ? w -= u1 : w -= u2;
     if(w < 0) w = 0;
 
-    w += (pre[dmn - 1]);
+    w += (pre[dmn - 1]);d5eb7bb103a11d3c3a65405a4851eeb0f59ca6e1
     cout<<w<<" ";
     return 0;
 }
