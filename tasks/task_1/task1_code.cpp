@@ -38,7 +38,7 @@ int main()
     freopen("output.txt", "w", stdout);
     #endif
 
-    ios_base::sync_with_stdio(false);
+    
     int i,w,h,u1,u2,d1,d2,dm,dmn,pre[100001];
     for(i=1;i<100001;i++)
     {
