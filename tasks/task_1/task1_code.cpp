@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+using namespace std;
 
 typedef long long int ll;
 int arr[1000005];
