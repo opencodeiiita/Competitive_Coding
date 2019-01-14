@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 typedef long long int ll;
 int arr[1000005];
@@ -35,7 +34,6 @@ int main()
 {
     #ifdef ONLINE_JUDGE
     // Assume input.txt and output.txt suitably exists
-    freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
 
