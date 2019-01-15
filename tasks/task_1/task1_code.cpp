@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 
 typedef long long int ll;
-int arr[1000005];
+int arr[10000001];
 ll pow_mod(ll a, ll b, ll M)
 {   ll ans = 1LL;
     while (b > 0) {
@@ -34,6 +34,7 @@ int main()
 {
     #ifdef ONLINE_JUDGE
     // Assume input.txt and output.txt suitably exists
+    freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
 
