@@ -2,7 +2,7 @@
 using namespace std;
 
 typedef long long int ll;
-int arr[10000001];
+int arr[1000005];
 ll pow_mod(ll a, ll b, ll M)
 {   ll ans = 1LL;
     while (b > 0) {
