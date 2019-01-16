@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-
+using namespace std;
 typedef long long int ll;
 int arr[1000005];
 ll pow_mod(ll a, ll b, ll M)
@@ -22,7 +22,7 @@ void sieve(int n)
     {
         if(arr[p] == p)
         {
-            for(i = p;i< = n;i += p)
+            for(i = p;i<= n;i += p)
             {
                 arr[i] = p;
             }
