@@ -44,7 +44,7 @@ int main()
     {
         pre[i] += (pre[i - 1] + i);
     }
-    cin>>h>>w;
+    cin>>w>>h;
     cin>>u1>>d1;
     cin>>u2>>d2;
 
