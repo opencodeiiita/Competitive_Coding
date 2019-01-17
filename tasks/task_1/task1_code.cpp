@@ -54,7 +54,7 @@ int main()
     if(w < 0) w = 0;
 
     dmn = min(d1,d2);
-    w += (pre[dm] - pre[dmn]);
+    w += (pre[dm-1] - pre[dmn-1]);
     (dmn == d1) ? w -= u1 : w -= u2;
     if(w < 0) w = 0;
 
