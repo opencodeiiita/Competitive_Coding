@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-
+using namespace std;
 typedef long long int ll;
 int arr[1000005];
 ll pow_mod(ll a, ll b, ll M)
@@ -22,7 +22,7 @@ void sieve(int n)
     {
         if(arr[p] == p)
         {
-            for(i = p;i< = n;i += p)
+            for(i = p;i<= n;i += p)
             {
                 arr[i] = p;
             }
@@ -32,12 +32,15 @@ void sieve(int n)
 }
 int main()
 {
-    #ifdef ONLINE_JUDGE
+
+    #ifndef ONLINE_JUDGE
     // Assume input.txt and output.txt suitably exists
-    freopen("output.txt", "w", stdout);
-    #endif
+	freopen(fi, "r", stdin);
+	freopen(fo, "w", stdout);
+	#endif
 
     ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     ll i,w,h,u1,u2,d1,d2,dm,dmn,pre[100001]={0};
     for(i=1;i<100001;i++)
     {
