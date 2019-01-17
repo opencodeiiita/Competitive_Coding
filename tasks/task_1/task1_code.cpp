@@ -34,6 +34,7 @@ int main()
 {
     #ifdef ONLINE_JUDGE
     // Assume input.txt and output.txt suitably exists
+    freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
 
