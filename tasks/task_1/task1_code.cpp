@@ -32,7 +32,7 @@ void sieve(int n)
 }
 int main()
 {
-    #ifdef ONLINE_JUDGE
+    #ifndef ONLINE_JUDGE
     // Assume input.txt and output.txt suitably exists
     freopen("output.txt", "w", stdout);
     #endif
