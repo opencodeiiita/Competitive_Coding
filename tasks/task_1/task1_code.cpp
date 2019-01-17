@@ -34,6 +34,7 @@ int main()
 {
     #ifdef ONLINE_JUDGE
     // Assume input.txt and output.txt suitably exists
+    freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
 
@@ -43,7 +44,7 @@ int main()
     {
         pre[i] += (pre[i - 1] + i);
     }
-    cin>>w>>h;
+    cin>>h>>w;
     cin>>u1>>d1;
     cin>>u2>>d2;
 
