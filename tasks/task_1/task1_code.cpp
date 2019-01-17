@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+using namespace std;
 
 typedef long long int ll;
 int arr[1000005];
@@ -38,6 +39,8 @@ int main()
     #endif
 
     ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
     ll i,w,h,u1,u2,d1,d2,dm,dmn,pre[100001]={0};
     for(i=1;i<100001;i++)
     {
