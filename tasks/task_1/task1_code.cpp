@@ -37,27 +37,27 @@ int main()
     freopen("output.txt", "w", stdout);
     #endif
 
-    ios_base::sync_with_stdio(false);
+    std::ios_base::sync_with_stdio(false);
     ll i,w,h,u1,u2,d1,d2,dm,dmn,pre[100001]={0};
     for(i=1;i<100001;i++)
     {
         pre[i] += (pre[i - 1] + i);
     }
-    cin>>w>>h;
-    cin>>u1>>d1;
-    cin>>u2>>d2;
+    std::cin>>w>>h;
+    std::cin>>u1>>d1;
+    std::cin>>u2>>d2;
 
-    dm = max( d1, d2);
+    dm = std::max( d1, d2);
     w += ( pre[h] - pre[dm-1] );
     (dm == d1) ? w -= u1 : w -= u2;
     if(w < 0) w = 0;
 
-    dmn = min(d1,d2);
+    dmn = std::min(d1,d2);
     w += (pre[dm] - pre[dmn]);
     (dmn == d1) ? w -= u1 : w -= u2;
     if(w < 0) w = 0;
 
     w += (pre[dmn - 1]);
-    cout<<w<<" ";
+    std::cout<<w<<" ";
     return 0;
 }
