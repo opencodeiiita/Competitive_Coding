@@ -32,14 +32,13 @@ void sieve(int n)
 }
 int main()
 {
-    #ifdef ONLINE_JUDGE
+    #ifndef ONLINE_JUDGE
     // Assume input.txt and output.txt suitably exists
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
 
     ios_base::sync_with_stdio(false);
-    cin.tie(0);
     ll i,w,h,u1,u2,d1,d2,dm,dmn,pre[100001]={0};
     for(i=1;i<100001;i++)
     {
