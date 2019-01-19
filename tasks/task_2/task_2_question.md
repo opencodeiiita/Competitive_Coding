@@ -12,16 +12,16 @@ Print n lines where ith line should contain 3 integers in the order of number of
 Note: Since number of pens will be quite large, you should take its modulo with 109+7. </br>
 </br>
 ## SAMPLE TESTCASE:
-Input:
+### Input: </br> 
 3 </br>
 4 2 3 </br>
 
-Output: 
+### Output: </br> 
 2 2 1 </br>
 3 2 1 </br>
 4 3 6 </br>
 
-Explanation:
+### Explanation: </br>
 For 4. </br>
 Its divisors are 1,2 & 4. Hence pencils = 3. </br>
 Its largest prime divisor is 2. And there are 6 ways of choosing 2 notebooks out of. Hence pens = 6. </br>
