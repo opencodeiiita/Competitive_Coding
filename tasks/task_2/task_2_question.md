@@ -6,19 +6,22 @@ The electronics lab assistants of IIITAX have invented a new device called TINDE
 ## INPUT
 First line contains n – number of students.</br>
 Second line contains n integers, where ith integer represents the number x assigned to ith student by Abdullah sir.</br></br>
-### OUTPUT
+## OUTPUT
 Print n lines where ith line should contain 3 integers in the order of number of notebooks, pencils and pens. The student with less notebooks be preferred during printing the details.</br>
-### Note: Since number of pens will be quite large, you should take its modulo with 109+7. </br>
+ 
+Note: Since number of pens will be quite large, you should take its modulo with 109+7. </br>
 </br>
 ## SAMPLE TESTCASE:
-### Input:
+Input:
 3 </br>
 4 2 3 </br>
-### Output: 
+
+Output: 
 2 2 1 </br>
 3 2 1 </br>
 4 3 6 </br>
-### Explanation:
+
+Explanation:
 For 4. </br>
 Its divisors are 1,2 & 4. Hence pencils = 3. </br>
 Its largest prime divisor is 2. And there are 6 ways of choosing 2 notebooks out of. Hence pens = 6. </br>
