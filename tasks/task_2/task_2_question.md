@@ -24,6 +24,6 @@ Note: Since number of pens will be quite large, you should take its modulo with 
 ### Explanation: </br>
 For 4. </br>
 Its divisors are 1,2 & 4. Hence pencils = 3. </br>
-Its largest prime divisor is 2. And there are 6 ways of choosing 2 notebooks out of. Hence pens = 6. </br>
+Its largest prime divisor is 2. And there are 6 ways of choosing 2 notebooks out of 4. Hence pens = 6. </br>
 Similarly for 2 & 3 pens & pencils can be calculated. </br>
 Since 2 is less than 3 and 4, hence details of 2 is printed first followed by 3 & 4. </br>
