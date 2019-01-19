@@ -9,7 +9,7 @@ Second line contains n integers, where ith integer represents the number x assig
 ## OUTPUT
 Print n lines where ith line should contain 3 integers in the order of number of notebooks, pencils and pens. The student with less notebooks be preferred during printing the details.</br>
  
-Note: Since number of pens will be quite large, you should take its modulo with 109+7. </br>
+Note: Since number of pens will be quite large, you should take its modulo with 10^9+7. </br>
 </br>
 ## SAMPLE TESTCASE:
 ### Input: </br> 
