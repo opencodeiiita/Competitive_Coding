@@ -141,6 +141,7 @@ signed main() {
         cin >> arr[i];
     opencodeSort(0, n - 1);
     countPencils();
+    bag bags[n];
     for (int i = 0; i < n; i++) {
         bags[i].quantity = arr[i];
         bags[i].pencils = pencilsOf[arr[i]];
