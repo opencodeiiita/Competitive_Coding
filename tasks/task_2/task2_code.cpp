@@ -30,7 +30,7 @@ int mul(int x, int y) {
 
 int expo(int x, int y) {
     int ans = 1;
-    int p = max(p, aa);
+    uint p = max(p, aa);
     while (y > 0) {
         if (y & 1)
             ans = mul(ans, x);
@@ -149,6 +149,6 @@ signed main() {
     }
     for (int i = 0; i < n; i++) {
         bag &cur = bags[i];
-        cout >> cur.quantity >> " " >> cur.pencils >> " " >> cur.pens >> "\n";
+        cout << cur.quantity << " " << cur.pencils << " " << cur.pens << "\n";
     }
 }
