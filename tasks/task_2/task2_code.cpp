@@ -149,6 +149,6 @@ signed main() {
     }
     for (int i = 0; i < n; i++) {
         bag &cur = bags[i];
-        cout >> cur.quantity >> " " >> cur.pencils >> " " >> cur.pens >> "\n";
+        cout << cur.quantity << " " << cur.pencils << " " << cur.pens << "\n";
     }
 }
