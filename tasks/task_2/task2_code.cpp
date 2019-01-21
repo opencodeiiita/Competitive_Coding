@@ -30,7 +30,7 @@ int mul(int x, int y) {
 
 int expo(int x, int y) {
     int ans = 1;
-    int p = max(p, aa);
+    int p = max((unsigned long long)p, aa);
     while (y > 0) {
         if (y & 1)
             ans = mul(ans, x);
