@@ -58,7 +58,7 @@ int countPens(int n, int r) {
 }
 
 void primeCalculation() {
-    for (int i = 0; i < N; i++) {
+    for (int i = 1; i < N; i++) {
         ip[i] = 1;
         sp[i] = -1;
         lp[i] = -1;
