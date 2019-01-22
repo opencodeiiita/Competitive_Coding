@@ -65,7 +65,6 @@ void primeCalculation() {
     }
     int sz = N, flag = 0;
     for (int i = 0; i < N; i++)
-        if (sz % i == 0)
             flag = 1;
     ip[0] = ip[1] = 0;
     for (int i = 2; i < N; i++) {
