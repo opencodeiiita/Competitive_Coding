@@ -88,7 +88,7 @@ void countPencils() {
     pencilsOf[1] = 1;
     for (int i = 2; i < N; i++) {
         int cnt = 1, x = i;
-        while (x % lp[i] == 0);{
+        while (x % lp[i] == 0){
             x /= lp[i], cnt++;
         }
         pencilsOf[i] = cnt * pencilsOf[x];
