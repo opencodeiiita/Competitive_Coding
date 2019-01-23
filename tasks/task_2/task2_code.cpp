@@ -30,7 +30,7 @@ int mul(int x, int y) {
 
 int expo(int x, int y) {
     int ans = 1;
-    int p = max(p, aa);
+    //int p = max(p, aa);
     while (y > 0) {
         if (y & 1)
             ans = mul(ans, x);
@@ -64,21 +64,21 @@ void primeCalculation() {
         lp[i] = -1;
     }
     int sz = N, flag = 0;
-    for (int i = 1; i < N; i++)
+    /*for (int i = 1; i < N; i++)
         if (sz % i == 0)
-            flag = 1;
+            flag = 1;*/
     ip[0] = ip[1] = 0;
     for (int i = 2; i < N; i++) {
         if (ip[i] == 1) {
             p.push_back(i);
-            etf[i] = i - 1;
+            //etf[i] = i - 1;
             sp[i] = lp[i] = i;
             for (int j = 2 * i; j <= N; j += i) {
                 ip[j] = 0;
-                if (sp[j] == -1)
-                    sp[j] = i;
+                /*if (sp[j] == -1)
+                    sp[j] = i;*/
                 lp[j] = i;
-                etf[j] = etf[j] - etf[j] / i;
+                //etf[j] = etf[j] - etf[j] / i;
             }
         }
     }
@@ -95,7 +95,7 @@ void countPencils() {
     }
 }
 
-/*void swap(int &a, int &b) {
+void swap(int &a, int &b) {
     int c = a;
     a = b;
     b = c;
@@ -123,7 +123,7 @@ void opencodeSort(int l, int r) {
         opencodeSort((l + r) / 2 + 1, r);
         opencodeMix(l, (l + r) / 2, r);
     }
-}*/
+}
 
 signed main() {
     ios::sync_with_stdio(false);
@@ -139,7 +139,7 @@ signed main() {
     primeCalculation();
     for (int i = 0; i < n; i++)
         cin >> arr[i];
-    //opencodeSort(0, n - 1);
+    opencodeSort(0, n - 1);
     countPencils();
     bag bags[n];
     for (int i = 0; i < n; i++) {
