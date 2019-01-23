@@ -95,7 +95,7 @@ void countPencils() {
     }
 }
 
-void swap(int &a, int &b) {
+/*void swap(int &a, int &b) {
     int c = a;
     a = b;
     b = c;
@@ -123,7 +123,7 @@ void opencodeSort(int l, int r) {
         opencodeSort((l + r) / 2 + 1, r);
         opencodeMix(l, (l + r) / 2, r);
     }
-}
+}*/
 
 signed main() {
     ios::sync_with_stdio(false);
@@ -139,7 +139,7 @@ signed main() {
     primeCalculation();
     for (int i = 0; i < n; i++)
         cin >> arr[i];
-    opencodeSort(0, n - 1);
+    //opencodeSort(0, n - 1);
     countPencils();
     bag bags[n];
     for (int i = 0; i < n; i++) {
