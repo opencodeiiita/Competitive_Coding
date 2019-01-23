@@ -13,7 +13,7 @@ struct bag {
     int pencils;
     int pens;
 };
-uint aa = N;
+int aa = N;
 int arr[N], ip[N], etf[N], lp[N], sp[N], fact[N], pencilsOf[N];
 vector<int> p;
 
