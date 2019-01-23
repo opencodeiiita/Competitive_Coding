@@ -64,7 +64,7 @@ void primeCalculation() {
         lp[i] = -1;
     }
     int sz = N, flag = 0;
-    for (int i = 0; i < N; i++)
+    for (int i = 1; i < N; i++)
         if (sz % i == 0)
             flag = 1;
     ip[0] = ip[1] = 0;
@@ -88,7 +88,7 @@ void countPencils() {
     pencilsOf[1] = 1;
     for (int i = 2; i < N; i++) {
         int cnt = 1, x = i;
-        while (x % lp[i] == 0);{
+        while (x % lp[i] == 0){
             x /= lp[i], cnt++;
         }
         pencilsOf[i] = cnt * pencilsOf[x];
