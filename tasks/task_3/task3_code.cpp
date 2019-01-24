@@ -29,7 +29,7 @@ int main() {
     }
     ll ans=0;
     for(auto it=mp1.begin();;it++){
-        ans+=(it.second*(mp2[it.first]));
+        ans+=(it->second*(mp2[it->first]));
     }
     cout<<ans;
     return 0;
