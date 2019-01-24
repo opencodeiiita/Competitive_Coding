@@ -15,7 +15,7 @@ struct bag {
 };
 int aa = N;
 int arr[N], ip[N], etf[N], lp[N], sp[N], fact[N], pencilsOf[N];
-vector<int> p;
+//vector<int> p;
 
 int mul(int x, int y) {
     int res = 0;
@@ -30,7 +30,7 @@ int mul(int x, int y) {
 
 int expo(int x, int y) {
     int ans = 1;
-    int p = max(p, aa);
+    //int p = max(p, aa);
     while (y > 0) {
         if (y & 1)
             ans = mul(ans, x);
@@ -64,21 +64,21 @@ void primeCalculation() {
         lp[i] = -1;
     }
     int sz = N, flag = 0;
-    for (int i = 1; i < N; i++)
+    /*for (int i = 1; i < N; i++)
         if (sz % i == 0)
-            flag = 1;
+            flag = 1;*/
     ip[0] = ip[1] = 0;
     for (int i = 2; i < N; i++) {
         if (ip[i] == 1) {
-            p.push_back(i);
-            etf[i] = i - 1;
+            //p.push_back(i);
+            //etf[i] = i - 1;
             sp[i] = lp[i] = i;
             for (int j = 2 * i; j <= N; j += i) {
                 ip[j] = 0;
-                if (sp[j] == -1)
-                    sp[j] = i;
+                /*if (sp[j] == -1)
+                    sp[j] = i;*/
                 lp[j] = i;
-                etf[j] = etf[j] - etf[j] / i;
+                //etf[j] = etf[j] - etf[j] / i;
             }
         }
     }
