@@ -28,8 +28,8 @@ int main() {
         }
     }
     ll ans=0;
-    for(auto it=mp1.begin();;it++){
-        ans+=(it.second*(mp2[it.first]));
+    for(auto it=mp1.begin();it!=mp1.end();it++){
+        ans+=(it->second*(mp2[it->first]));
     }
     cout<<ans;
     return 0;
