@@ -7,7 +7,7 @@ int main() {
     int n;
     cin>>n;
     ll x;
-    multiset<ll>s;
+    set<ll>s;
     for(int i=0;i<n;i++){
         cin>>x;
         s.insert(x);
