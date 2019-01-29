@@ -13,7 +13,7 @@ int main()
 
     ios_base::sync_with_stdio(false);
 	ll s[N],i,j;
-	s[0]=s[1]=1;
+	s[0]=s[1]=0;
 	for(i=2;i<N;i++)
 	    s[i]=1;
 	for(i=2;i<N;i++) {
@@ -32,7 +32,7 @@ int main()
 	vector <double> a;
 	ll tem;
 	for(i=0;i<primes.size();i++) {
-	    tem=PI/primes[i];
+		tem=PI/primes[i];
 	    (i==0)?a.push_back(tem):a.push_back(a[i-1]+tem);
 	}
 	ll T,n;
