@@ -30,7 +30,7 @@ int main()
 	    (primes.size()<50000)?i++:break;
 	}
 	vector <double> a;
-	ll tem;
+	double tem;
 	for(i=0;i<primes.size();i++) {
 		tem=PI/primes[i];
 	    (i==0)?a.push_back(tem):a.push_back(a[i-1]+tem);
