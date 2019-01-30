@@ -23,7 +23,7 @@ int main()
 	    }
 	}
 	vector <ll> primes;
-	i=0;
+	i=2;
 	while(i<N) {
 	    if(s[i]==1)
 	        primes.push_back(i);
