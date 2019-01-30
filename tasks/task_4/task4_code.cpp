@@ -13,7 +13,7 @@ int main()
 
     ios_base::sync_with_stdio(false);
 	ll s[N],i,j;
-	s[0]=s[1]=1;
+	s[0]=s[1]=0;
 	for(i=2;i<N;i++)
 	    s[i]=1;
 	for(i=2;i<N;i++) {
