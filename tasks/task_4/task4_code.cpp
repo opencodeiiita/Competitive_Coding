@@ -2,7 +2,7 @@
 using namespace std;
 #define PI 3.141592
 #define ll long long int
-#define N 100000
+#define N 1000000
 
 int main()
 {
@@ -32,7 +32,7 @@ int main()
 	vector <double> a;
 	double tem;
 	for(i=0;i<primes.size();i++) {
-		tem=PI/primes[i];
+	    tem=PI/primes[i];
 	    (i==0)?a.push_back(tem):a.push_back(a[i-1]+tem);
 	}
 	ll T,n;
