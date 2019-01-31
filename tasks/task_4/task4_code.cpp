@@ -27,7 +27,8 @@ int main()
 	while(i<N) {
 	    if(s[i]==1)
 	        primes.push_back(i);
-	    (primes.size()<50000)?i++:break;
+	    if(primes.size()<50000) i++;
+	    else break;
 	}
 	vector <double> a;
 	double tem;
