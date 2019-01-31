@@ -40,7 +40,7 @@ int main()
 	cin>>T;
 	while(T--) {
 	    cin>>n;
-	    cout<<fixed<<setprecision(10)<<a[n-1]<<"\n";
+	    cout<<a[n-1]<<"\n";
 	}
 	return 0;
 }
