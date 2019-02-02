@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define PI 3.141592
+#define PI 3.1415926535
 #define ll long long int
 #define N 1000000
 
@@ -40,7 +40,7 @@ int main()
 	cin>>T;
 	while(T--) {
 	    cin>>n;
-	    cout<<a[n-1]<<"\n";
+	    cout<<fixed<<setprecision(10)<<a[n-1]<<"\n";
 	}
 	return 0;
 }
