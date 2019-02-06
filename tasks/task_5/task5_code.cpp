@@ -7,6 +7,7 @@ using namespace __gnu_pbds;
 using namespace std;
 typedef long long int ll;
 const ll size=pow(10,6)+1;
+const ll mod=1000000007;
 ll arr[size];
 priority_queue<pair<ll,pair<ll,ll>>,vector<pair<ll,ll>>, greater<pair<ll,ll,pair<ll,ll>>>>> pq;
 void findtheerror(n)
