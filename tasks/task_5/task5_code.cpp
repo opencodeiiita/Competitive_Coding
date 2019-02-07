@@ -9,9 +9,9 @@ typedef long long int ll;
 const ll size=pow(10,6)+1;
 ll arr[size];
 priority_queue<pair<ll,pair<ll,ll>>,vector<pair<ll,ll>>, greater<pair<ll,ll,pair<ll,ll>>>>> pq;
-void findtheerror(n)
+void findtheerror(ll n)
 {
-  for(int i=0;i<n;i++)
+  for(ll i=0;i<n;i++)
   {
     cout<<&(*bits[i]);
   }
